@@ -3,6 +3,7 @@ package tachiyomi.presentation.core.components
 import androidx.compose.foundation.background
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.RowScope
+import androidx.compose.foundation.layout.defaultMinSize
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.text.InlineTextContent
 import androidx.compose.foundation.text.appendInlineContent
@@ -20,6 +21,7 @@ import androidx.compose.ui.text.Placeholder
 import androidx.compose.ui.text.PlaceholderVerticalAlign
 import androidx.compose.ui.text.buildAnnotatedString
 import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 
 @Composable
@@ -46,9 +48,11 @@ fun Badge(
         modifier = modifier
             .clip(shape)
             .background(color)
-            .padding(horizontal = 3.dp, vertical = 1.dp),
+            .defaultMinSize(minWidth = 22.dp)
+            .padding(horizontal = 6.dp, vertical = 2.dp),
         color = textColor,
-        fontWeight = FontWeight.Medium,
+        fontWeight = FontWeight.ExtraBold,
+        textAlign = TextAlign.Center,
         maxLines = 1,
         style = MaterialTheme.typography.bodySmall,
     )
@@ -91,9 +95,11 @@ fun Badge(
         modifier = modifier
             .clip(shape)
             .background(color)
-            .padding(horizontal = 3.dp, vertical = 1.dp),
+            .defaultMinSize(minWidth = 22.dp)
+            .padding(horizontal = 6.dp, vertical = 2.dp),
         color = iconColor,
-        fontWeight = FontWeight.Medium,
+        fontWeight = FontWeight.ExtraBold,
+        textAlign = TextAlign.Center,
         maxLines = 1,
         style = MaterialTheme.typography.bodySmall,
     )

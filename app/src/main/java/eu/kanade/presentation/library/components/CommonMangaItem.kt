@@ -241,24 +241,23 @@ private fun MangaGridCover(
     Box(
         modifier = modifier
             .fillMaxWidth()
-            .aspectRatio(MangaCover.Book.ratio),
+            .aspectRatio(MangaCover.Book.ratio)
+            .clip(MaterialTheme.shapes.extraSmall),
     ) {
         cover()
         content?.invoke(this)
         if (badgesStart != null) {
             BadgeGroup(
-                modifier = Modifier
-                    .padding(4.dp)
-                    .align(Alignment.TopStart),
+                modifier = Modifier.align(Alignment.TopStart),
+                shape = RoundedCornerShape(bottomEnd = 8.dp),
                 content = badgesStart,
             )
         }
 
         if (badgesEnd != null) {
             BadgeGroup(
-                modifier = Modifier
-                    .padding(4.dp)
-                    .align(Alignment.TopEnd),
+                modifier = Modifier.align(Alignment.TopEnd),
+                shape = RoundedCornerShape(bottomStart = 8.dp),
                 content = badgesEnd,
             )
         }
