@@ -245,6 +245,39 @@
         <item name="colorSurfaceContainerLowest">@color/lavender_surfaceContainerLowest</item>
     </style>
 
+    <!--== Lettuce Theme ==-->
+    <style name="Theme.Tachiyomi.Lettuce">
+        <!-- Theme Colors -->
+        <item name="colorPrimary">@color/lettuce_primary</item>
+        <item name="colorOnPrimary">@color/lettuce_onPrimary</item>
+        <item name="colorPrimaryContainer">@color/lettuce_primaryContainer</item>
+        <item name="colorOnPrimaryContainer">@color/lettuce_onPrimaryContainer</item>
+        <item name="colorPrimaryInverse">@color/lettuce_inversePrimary</item>
+        <item name="colorSecondary">@color/lettuce_secondary</item>
+        <item name="colorOnSecondary">@color/lettuce_onSecondary</item>
+        <item name="colorSecondaryContainer">@color/lettuce_secondaryContainer</item>
+        <item name="colorOnSecondaryContainer">@color/lettuce_onSecondaryContainer</item>
+        <item name="colorTertiary">@color/lettuce_tertiary</item>
+        <item name="colorOnTertiary">@color/lettuce_onTertiary</item>
+        <item name="colorTertiaryContainer">@color/lettuce_tertiaryContainer</item>
+        <item name="colorOnTertiaryContainer">@color/lettuce_onTertiaryContainer</item>
+        <item name="android:colorBackground">@color/lettuce_background</item>
+        <item name="colorOnBackground">@color/lettuce_onBackground</item>
+        <item name="colorSurface">@color/lettuce_surface</item>
+        <item name="colorOnSurface">@color/lettuce_onSurface</item>
+        <item name="colorSurfaceVariant">@color/lettuce_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/lettuce_onSurfaceVariant</item>
+        <item name="elevationOverlayColor">@color/lettuce_surfaceTint</item>
+        <item name="colorSurfaceInverse">@color/lettuce_inverseSurface</item>
+        <item name="colorOnSurfaceInverse">@color/lettuce_inverseOnSurface</item>
+        <item name="colorOutline">@color/lettuce_outline</item>
+        <item name="colorSurfaceContainer">@color/lettuce_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/lettuce_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/lettuce_surfaceContainerHighest</item>
+        <item name="colorSurfaceContainerLow">@color/lettuce_surfaceContainerLow</item>
+        <item name="colorSurfaceContainerLowest">@color/lettuce_surfaceContainerLowest</item>
+    </style>
+
     <!--== Midnight Dusk Theme ==-->
     <style name="Theme.Tachiyomi.MidnightDusk">
         <!-- Theme Colors -->

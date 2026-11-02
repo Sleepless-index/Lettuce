@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lettuce_primary">#8FA8FF</color>
+    <color name="lettuce_onPrimary">#0B1020</color>
+    <color name="lettuce_primaryContainer">#2A3766</color>
+    <color name="lettuce_onPrimaryContainer">#DCE3FF</color>
+    <color name="lettuce_inversePrimary">#3F5BC4</color>
+    <color name="lettuce_secondary">#8FA8FF</color>
+    <color name="lettuce_onSecondary">#0B1020</color>
+    <color name="lettuce_secondaryContainer">#252E4D</color>
+    <color name="lettuce_onSecondaryContainer">#8FA8FF</color>
+    <color name="lettuce_tertiary">#7FD1B9</color>
+    <color name="lettuce_onTertiary">#06201A</color>
+    <color name="lettuce_tertiaryContainer">#1F5B4B</color>
+    <color name="lettuce_onTertiaryContainer">#CDEFE5</color>
+    <color name="lettuce_background">#0E1014</color>
+    <color name="lettuce_onBackground">#ECEEF2</color>
+    <color name="lettuce_surface">#0E1014</color>
+    <color name="lettuce_onSurface">#ECEEF2</color>
+    <color name="lettuce_surfaceVariant">#1D2129</color>
+    <color name="lettuce_onSurfaceVariant">#98A0AE</color>
+    <color name="lettuce_surfaceTint">#8FA8FF</color>
+    <color name="lettuce_inverseSurface">#ECEEF2</color>
+    <color name="lettuce_inverseOnSurface">#14171F</color>
+    <color name="lettuce_outline">#6B7385</color>
+    <color name="lettuce_surfaceContainerLowest">#0A0C10</color>
+    <color name="lettuce_surfaceContainerLow">#12151B</color>
+    <color name="lettuce_surfaceContainer">#161920</color>
+    <color name="lettuce_surfaceContainerHigh">#1A1D24</color>
+    <color name="lettuce_surfaceContainerHighest">#1D2129</color>
+</resources>
